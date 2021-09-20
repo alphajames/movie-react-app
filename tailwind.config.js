@@ -8,9 +8,9 @@ module.exports = {
         "3xl":"2000px", 
       }
     },
-    fontFamilly: {
-      'montserrat':['Montserrat','sans-serif']
-    },
+    fontFamily:{
+      "montserrat":["Montserrat","sans-serif"]
+    }
   },
   variants: {
     extend: {},
