@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Movies from '../components/Movies'
 import Navigation from '../components/Navigation'
@@ -16,7 +17,10 @@ export default function Home({results}) {
   <Navigation />
   {/* MOVIE SECTION  */}
   <Movies results={results}/>
+  {/* FOOTER */}
+  <Footer />
   </div>
+  
   )
 }
 
